@@ -1,26 +1,35 @@
 <template>
   <div id="app">
-    <Navbar msg="AK"/>
+
+   <Main/>
+
+
+  
+     <div>
+     </div>
+
   </div>
 </template>
 
 <script>
-import Navbar from './components/NavBar.vue'
+import Main from './components/Main.vue'
+
 
 export default {
   name: 'App',
   components: {
-    Navbar
+    Main
+
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+
+    width: 100%;
+
 }
+
+
 </style>
