@@ -1,5 +1,5 @@
 <template>
-  <div >
+  <div  >
     <b-navbar toggleable="lg" type="dark" variant="dark ">
       <b-navbar-brand href="#">{{ msg }}</b-navbar-brand>
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -31,6 +31,10 @@ export default {
 </script>
 
 <style scoped>
+.navbar{
+float:left;
+width: 100%;
+}
 .navbar-brand {
   margin-left: 20%;
 }
@@ -39,10 +43,14 @@ export default {
 }
 .nav-link {
   color: white;
-  /* background-color: white; */
 }
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 1);
+  /* color: rgba(255, 255, 255, 1); */
+  color: white;
+
+}
+.collapse {
+  margin-right: 20px;
 }
 
 
