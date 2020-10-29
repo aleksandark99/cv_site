@@ -18,40 +18,33 @@
         </b-col>
         <b-col cols="12" lg="6">
           <div>
-            <h3>Some Projects (more information can be found on github)
-                           
-            </h3>
+            <h3>Some Projects (more information can be found on github)</h3>
 
             <div class="project">
-              <h4>Web Cinema
- <div class="images">
-
-                <b-img
-                  :src="require('../assets/vue.png')"
-                  v-bind="mainProps2"
-                ></b-img>
-                <b-img
-                  :src="require('../assets/java2.png')"
-                  v-bind="mainProps2"
-                ></b-img>
-                <b-img
-                  :src="require('../assets/eclipse.png')"
-                  v-bind="mainProps2"
-                ></b-img>
-                 <b-img
-                  :src="require('../assets/tomcat.png')"
-                  v-bind="mainProps2"
-                ></b-img>
-                 <b-img
-                  :src="require('../assets/sqlite.png')"
-                  v-bind="mainProps2"
-                ></b-img>
-              </div>
-
-
-
-
-
+              <h4>
+                Web Cinema
+                <div class="images">
+                  <b-img
+                    :src="require('../assets/vue.png')"
+                    v-bind="mainProps2"
+                  ></b-img>
+                  <b-img
+                    :src="require('../assets/java2.png')"
+                    v-bind="mainProps2"
+                  ></b-img>
+                  <b-img
+                    :src="require('../assets/eclipse.png')"
+                    v-bind="mainProps2"
+                  ></b-img>
+                  <b-img
+                    :src="require('../assets/tomcat.png')"
+                    v-bind="mainProps2"
+                  ></b-img>
+                  <b-img
+                    :src="require('../assets/sqlite.png')"
+                    v-bind="mainProps2"
+                  ></b-img>
+                </div>
               </h4>
               <p>
                 Goal of this project was to make web application for cinema
@@ -65,23 +58,23 @@
               </p>
             </div>
             <div class="project">
-              <h4>Email Client - Spring Boot
+              <h4>
+                Email Client - Spring Boot
 
-                              <div class="images">
-
-                <b-img
-                  :src="require('../assets/spring.png')"
-                  v-bind="mainProps2"
-                ></b-img>
-                <b-img
-                  :src="require('../assets/intelij.png')"
-                  v-bind="mainProps2"
-                ></b-img>
-                <b-img
-                  :src="require('../assets/mysql.png')"
-                  v-bind="mainProps2"
-                ></b-img>
-              </div>
+                <div class="images">
+                  <b-img
+                    :src="require('../assets/spring.png')"
+                    v-bind="mainProps2"
+                  ></b-img>
+                  <b-img
+                    :src="require('../assets/intelij.png')"
+                    v-bind="mainProps2"
+                  ></b-img>
+                  <b-img
+                    :src="require('../assets/mysql.png')"
+                    v-bind="mainProps2"
+                  ></b-img>
+                </div>
               </h4>
               <p>
                 This project is relaying on Spring technology on backend and
@@ -93,23 +86,23 @@
               </p>
             </div>
             <div class="project">
-                                            <h4>Email Client - Android
+              <h4>
+                Email Client - Android
 
-              <div class="images">
-
-                <b-img
-                  :src="require('../assets/android.png')"
-                  v-bind="mainProps2"
-                ></b-img>
-                <b-img
-                  :src="require('../assets/sts.png')"
-                  v-bind="mainProps2"
-                ></b-img>
-                <b-img
-                  :src="require('../assets/java2.png')"
-                  v-bind="mainProps2"
-                ></b-img>
-              </div>
+                <div class="images">
+                  <b-img
+                    :src="require('../assets/android.png')"
+                    v-bind="mainProps2"
+                  ></b-img>
+                  <b-img
+                    :src="require('../assets/sts.png')"
+                    v-bind="mainProps2"
+                  ></b-img>
+                  <b-img
+                    :src="require('../assets/java2.png')"
+                    v-bind="mainProps2"
+                  ></b-img>
+                </div>
               </h4>
               <p>
                 This project is frontend for our Email Client app. Connection
@@ -122,22 +115,19 @@
             </div>
 
             <div class="project">
-              <h4>Personal website
+              <h4>
+                Personal website
 
-              <div class="images">
-
-                <b-img
-                  :src="require('../assets/vue.png')"
-                  v-bind="mainProps2"
-                ></b-img>
-                <b-img
-                  :src="require('../assets/netlify.png')"
-                  v-bind="mainProps2"
-                ></b-img>
-           
-              </div>
-
-
+                <div class="images">
+                  <b-img
+                    :src="require('../assets/vue.png')"
+                    v-bind="mainProps2"
+                  ></b-img>
+                  <b-img
+                    :src="require('../assets/netlify.png')"
+                    v-bind="mainProps2"
+                  ></b-img>
+                </div>
               </h4>
               <p>
                 I decided to make this website as alteranative to classic cv. I
@@ -156,7 +146,7 @@
 <script>
 export default {
   name: "Skills",
-    data() {
+  data() {
     return {
       mainProps2: { width: 50, height: 50, class: "m3" },
     };
@@ -165,7 +155,7 @@ export default {
 </script>
 
 <style  scoped>
-img{
+img {
   margin-right: 5px;
 }
 #skills {
@@ -173,7 +163,7 @@ img{
   padding-right: 50px;
   padding-left: 50px;
   border-top: 3px solid white;
-  padding-top: 50px;
+  padding-top: 100px;
   color: white;
 }
 h3 {
@@ -181,7 +171,7 @@ h3 {
   border-bottom: 1px solid white;
   color: white;
 }
-h4{
+h4 {
   color: white;
 }
 p {
@@ -189,11 +179,10 @@ p {
 
   padding-left: 15px;
 }
-.images{
-display: inline;
-
+.images {
+  display: inline;
 }
-.divleft{
+.divleft {
   font-size: ;
 }
 </style>

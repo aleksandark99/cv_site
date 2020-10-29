@@ -75,7 +75,7 @@ export default {
   width: 100%;
   padding-left: -15px;
   padding-right: -15px;
-  padding-top: 50px;
+  padding-top: 100px;
 }
 
 .container {
