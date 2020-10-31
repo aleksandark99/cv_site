@@ -4,19 +4,17 @@
       <b-row align-self="stretch" class="divleft">
         <b-col cols="12" lg="6">
           <div class="skillclass">
+            <h3>Skills</h3>
+            <p>-English B2</p>
+            <p>-Java (Spring boot)</p>
+            <p>-Sql</p>
 
-          <h3>Skills</h3>
-          <p>-English B2</p>
-          <p>-Java (Spring boot)</p>
-          <p>-Sql</p>
-
-          <p>-JavaScript</p>
-          <p>-HTLM/CSS</p>
-          <p>-Vue.js</p>
-          <p>-C#</p>
-          <p>-Android Studio Code</p>
-
-        </div>
+            <p>-JavaScript</p>
+            <p>-HTLM/CSS</p>
+            <p>-Vue.js</p>
+            <p>-C#</p>
+            <p>-Android Studio Code</p>
+          </div>
         </b-col>
         <b-col cols="12" lg="6">
           <div>
@@ -24,8 +22,10 @@
 
             <div class="project">
               <h4>
-                      <a class="gitlinks"
-                  href="https://github.com/aleksandark99/wd_vue" target="_blank"
+                <a
+                  class="gitlinks"
+                  href="https://github.com/aleksandark99/wd_vue"
+                  target="_blank"
                 >
                   Web cinema
                 </a>
@@ -65,8 +65,10 @@
             </div>
             <div class="project">
               <h4>
-                <a class="gitlinks"
-                  href="https://github.com/aleksandark99/Email-Client---Spring-Boot" target="_blank"
+                <a
+                  class="gitlinks"
+                  href="https://github.com/aleksandark99/Email-Client---Spring-Boot"
+                  target="_blank"
                 >
                   Email Client - Spring Boot
                 </a>
@@ -97,8 +99,10 @@
             </div>
             <div class="project">
               <h4>
-                      <a class="gitlinks"
-                  href="https://github.com/aleksandark99/Email-Client---Android" target="_blank"
+                <a
+                  class="gitlinks"
+                  href="https://github.com/aleksandark99/Email-Client---Android"
+                  target="_blank"
                 >
                   Email Client - Android
                 </a>
@@ -130,10 +134,12 @@
 
             <div class="project">
               <h4>
-                                <a class="gitlinks"
-                  href="https://github.com/aleksandark99/cv_site" target="_blank"
+                <a
+                  class="gitlinks"
+                  href="https://github.com/aleksandark99/cv_site"
+                  target="_blank"
                 >
-                       Personal website
+                  Personal website
                 </a>
 
                 <div class="images">
@@ -173,7 +179,7 @@ export default {
 </script>
 
 <style  scoped>
-.gitlinks{
+.gitlinks {
   color: white;
   font-size: 1.5rem;
 }
@@ -204,14 +210,13 @@ h4 {
 
 .skillclass p {
   font-size: 25px;
-
 }
 .images {
   display: inline;
 }
 
-@media screen and (max-width: 540px	){
-   .skillclass p{
+@media screen and (max-width: 540px) {
+  .skillclass p {
     font-size: 20px;
   }
 }

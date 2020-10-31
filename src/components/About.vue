@@ -18,10 +18,13 @@
               writing simple problem solving programs in C++. Over time I gained
               more and more knowledge and it slowly turned into console
               aplications. In my final year of highschool I decided to make a
-              game for my final project. It was fun and great learning experience
-              for me, but after I started attending university I leaned towards
-              software developing, making web and desktop applications. I think I made the right choise because ever since I have been learning new
-              things and it gives me a chance to meet new and interesting people with whom I can exchange experience, learn from and even work with!
+              game for my final project. It was fun and great learning
+              experience for me, but after I started attending university I
+              leaned towards software developing, making web and desktop
+              applications. I think I made the right choise because ever since I
+              have been learning new things and it gives me a chance to meet new
+              and interesting people with whom I can exchange experience, learn
+              from and even work with!
             </p>
           </div>
         </b-col>
@@ -34,27 +37,29 @@
                 v-bind="mainProps2"
               ></b-img>
             </div>
-            <a id="linkuni"
+            <a
+              id="linkuni"
               class="link"
               href="http://www.ftn.uns.ac.rs/1089714234/softverske-i-informacione-tehnologije--novi-sad-"
               target="_blank"
             >
-            <h4>
-  Faculty Of Technical Sciences, Department of Software and
-              information technology
-            </h4>
-            </a
-            >
+              <h4>
+                Faculty Of Technical Sciences, Department of Software and
+                information technology
+              </h4>
+            </a>
 
             <p>
-              I am always looking to improve my current skills, learn new
-              ones and that is a reason I am looking for internship. I think
-              that many things can be learnt on your own especially in this
-              field, but I also think that by working with other people one can
-              improve their skills much faster and bring them to another level.
-              </p> <p><a class="link" href="#skills">  Down bellow </a>you can find a list of
-              technologies I am familliar with as well as some projects i have
-              worked on so far.
+              I am always looking to improve my current skills, learn new ones
+              and that is a reason I am looking for internship. I think that
+              many things can be learnt on your own especially in this field,
+              but I also think that by working with other people one can improve
+              their skills much faster and bring them to another level.
+            </p>
+            <p>
+              <a class="link" href="#skills"> Down bellow </a>you can find a
+              list of technologies I am familliar with as well as some projects
+              i have worked on so far.
             </p>
           </div>
         </b-col>
@@ -117,22 +122,22 @@ p {
   text-decoration: underline;
   color: white;
 }
-#linkuni{
- font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-
+#linkuni {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 @media screen and (max-width: 992px) {
   .d1 {
     border-style: none;
   }
- 
 }
 
-@media screen and (max-width: 540px	){
-   p{
+@media screen and (max-width: 540px) {
+  p {
     font-size: 16px;
   }
-  h4{
+  h4 {
     font-size: 16px !important;
   }
 }

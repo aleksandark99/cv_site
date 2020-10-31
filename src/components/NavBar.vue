@@ -1,8 +1,14 @@
 <template>
-  <div  id="n">
-    <b-navbar  fixed="top"  toggleable="lg" type="dark" variant="dark ">
-      <b-navbar-brand href="#home"><b-img id="hi" :src="require('../assets/aks.svg')" rounded="circle"
-  v-bind="mainProps2"></b-img></b-navbar-brand>
+  <div id="n">
+    <b-navbar fixed="top" toggleable="lg" type="dark" variant="dark ">
+      <b-navbar-brand href="#home"
+        ><b-img
+          id="hi"
+          :src="require('../assets/aks.svg')"
+          rounded="circle"
+          v-bind="mainProps2"
+        ></b-img
+      ></b-navbar-brand>
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
       <b-collapse id="nav-collapse" is-nav>
@@ -19,14 +25,11 @@
 
 
 <script>
-
 export default {
   name: "Navbar",
- 
-  components:{
-    
-  },
-   data() {
+
+  components: {},
+  data() {
     return {
       mainProps2: { width: 50, height: 50, class: "m1" },
     };
@@ -35,12 +38,9 @@ export default {
 </script>
 
 <style scoped>
-.navbar{
+.navbar {
   padding-top: 0;
-    padding-bottom: 0;
-
-
-
+  padding-bottom: 0;
 }
 
 .navbar-brand {
@@ -53,13 +53,9 @@ export default {
   color: white;
 }
 .navbar-dark .navbar-nav .nav-link {
-  /* color: rgba(255, 255, 255, 1); */
   color: white;
-
 }
 .collapse {
   margin-right: 20px;
 }
-
-
 </style>

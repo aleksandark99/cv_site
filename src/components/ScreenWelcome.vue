@@ -1,12 +1,12 @@
 <template>
   <div id="home" class="section welcome style">
     <div id="welcome_text">
-     
-      <h2>Hi, I am Aleksandar Kotur and this is my website. I am a  software developer student from Serbia and in 2018 I enrolled
-              The Faculty of Technical Sciences in Novi Sad, department of
-              Software and information technology</h2>
-
-      <!-- <h1>HERE YOU CAN FIND MORE ABOUT ME </h1> -->
+      <h2>
+        Hi, I am Aleksandar Kotur and this is my website. I am a software
+        developer student from Serbia and in 2018 I enrolled The Faculty of
+        Technical Sciences in Novi Sad, department of Software and information
+        technology
+      </h2>
     </div>
   </div>
 </template>
@@ -16,9 +16,7 @@ export default {
 };
 </script>
 <style >
-
 #welcome_text {
-  /* color: rgb(255, 255, 255); */
   color: white(204, 0, 255);
   text-align: left;
   padding-right: 10%;
@@ -26,33 +24,25 @@ export default {
   position: absolute;
   margin-top: 50px;
   top: 10%;
-  /* left: 50%;
-  transform: translate(-50%, -50%); */
-
 
 
   font-family: "Comic Sans MS", cursive, sans-serif;
-
 }
 h1 {
   text-align: center;
 }
 .welcome {
-  /* background-image: url("../assets/welcome2.jpg"); */
-  /* background-image: url("../assets/b3.svg"); */
+
   background-image: url("../assets/d2.png");
-  /* opacity: 0.5; */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   image-rendering: optimizeSpeed;
-  background-color: rgb(128, 128, 255)
-;
+  background-color: rgb(128, 128, 255);
 }
 
-
-@media screen and (max-width: 540px	){
-   h2{
+@media screen and (max-width: 540px) {
+  h2 {
     font-size: 30px !important;
   }
 }
