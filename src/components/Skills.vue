@@ -54,13 +54,13 @@
               </h4>
               <p>
                 Goal of this project was to make web application for cinema
-                where users could search and bu tickets for projections. Java
+                where users could search and buy tickets for projections. Java
                 servlets were used on backend where Apache Tomcat was
                 responsible for processing HTTP requests. I decided to focus
                 more on frontend where i used vue.js and bootstrap-vue. My goal
-                was to make responsive app that looked nice and was usable on
-                all screens. I really liked how it turned out and vue became my
-                preffered choice for frontend since then.
+                was to make a responsive app that looked nice and was usable and looked decent on
+                all devices. I really liked how it turned out and vue became my
+                preferred choice for frontend since then.
               </p>
             </div>
             <div class="project">
@@ -94,7 +94,7 @@
                 (for sending/receiving emails and for communicating with email
                 servers) which was integrated in Spring environment, also, we
                 used Hibernate ORM to communicate and persist data to MySQL
-                database
+                database.
               </p>
             </div>
             <div class="project">
@@ -154,10 +154,10 @@
                 </div>
               </h4>
               <p>
-                I decided to make this website as alteranative to classic cv. I
-                could have made it as simple html/css page but i decided to make
-                it using vue with bootstrap and a little css because i find it
-                more efficeint and practical.
+                I decided to make this website as alteranative to classic cv.
+                Instead of making it as a simple html/css page i decided to
+                make it using vue with bootstrap and a little css because i find
+                it more efficeint and practical.
               </p>
             </div>
           </div>
@@ -218,6 +218,10 @@ h4 {
 @media screen and (max-width: 540px) {
   .skillclass p {
     font-size: 20px;
+  }
+  #skills {
+  padding-right: 10px;
+  padding-left: 10px;
   }
 }
 </style>

@@ -140,5 +140,15 @@ p {
   h4 {
     font-size: 16px !important;
   }
+
+  .d1 {
+  padding-right: 10px;
+  padding-left: 10px;
+
+}
+.d2 {
+  padding-right: 10px;
+  padding-left: 10px;
+}
 }
 </style>
