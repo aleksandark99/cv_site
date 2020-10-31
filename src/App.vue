@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+        <vue-headful title="Aleksandar Kotur"/>
 
    <Main/>
 
