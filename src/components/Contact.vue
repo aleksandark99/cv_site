@@ -25,8 +25,7 @@
             v-bind="mainProps2"
           ></b-img
           ><a
-            href="www.linkedin.com/in/aleksandar-kotur
-"
+            href="https://linkedin.com/in/aleksandar-kotur"
             target="_blank"
           >
             /aleksandar-kotur
