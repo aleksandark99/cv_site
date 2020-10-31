@@ -11,7 +11,7 @@
         </b-col>
         <b-col cols="12" lg="3">
           <b-img :src="require('../assets/p.png')" v-bind="mainProps2"></b-img>
-          <a href="tel:+3810638512201"> +381 0638512201 </a>
+          <a href="tel:+381638512201"> +381 638512201 </a>
         </b-col>
         <b-col cols="12" lg="3">
           <b-img :src="require('../assets/g2.png')" v-bind="mainProps2"></b-img>

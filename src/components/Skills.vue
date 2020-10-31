@@ -13,7 +13,7 @@
             <p>-HTLM/CSS</p>
             <p>-Vue.js</p>
             <p>-C#</p>
-            <p>-Android Studio Code</p>
+            <p>-Android Studio</p>
           </div>
         </b-col>
         <b-col cols="12" lg="6">
