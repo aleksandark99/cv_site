@@ -3,8 +3,10 @@
     <b-container fluid>
       <b-row align-self="stretch" class="divleft">
         <b-col cols="12" lg="6">
+          <div class="skillclass">
+
           <h3>Skills</h3>
-          <p>-English</p>
+          <p>-English B2</p>
           <p>-Java (Spring boot)</p>
           <p>-Sql</p>
 
@@ -14,15 +16,19 @@
           <p>-C#</p>
           <p>-Android Studio Code</p>
 
-          <div></div>
+        </div>
         </b-col>
         <b-col cols="12" lg="6">
           <div>
-            <h3>Some Projects (more information can be found on github)</h3>
+            <h3>Some Projects</h3>
 
             <div class="project">
               <h4>
-                Web Cinema
+                      <a class="gitlinks"
+                  href="https://github.com/aleksandark99/wd_vue" target="_blank"
+                >
+                  Web cinema
+                </a>
                 <div class="images">
                   <b-img
                     :src="require('../assets/vue.png')"
@@ -59,7 +65,11 @@
             </div>
             <div class="project">
               <h4>
-                Email Client - Spring Boot
+                <a class="gitlinks"
+                  href="https://github.com/aleksandark99/Email-Client---Spring-Boot" target="_blank"
+                >
+                  Email Client - Spring Boot
+                </a>
 
                 <div class="images">
                   <b-img
@@ -87,7 +97,11 @@
             </div>
             <div class="project">
               <h4>
-                Email Client - Android
+                      <a class="gitlinks"
+                  href="https://github.com/aleksandark99/Email-Client---Android" target="_blank"
+                >
+                  Email Client - Android
+                </a>
 
                 <div class="images">
                   <b-img
@@ -116,7 +130,11 @@
 
             <div class="project">
               <h4>
-                Personal website
+                                <a class="gitlinks"
+                  href="https://github.com/aleksandark99/cv_site" target="_blank"
+                >
+                       Personal website
+                </a>
 
                 <div class="images">
                   <b-img
@@ -155,6 +173,10 @@ export default {
 </script>
 
 <style  scoped>
+.gitlinks{
+  color: white;
+  font-size: 1.5rem;
+}
 img {
   margin-right: 5px;
 }
@@ -174,15 +196,23 @@ h3 {
 h4 {
   color: white;
 }
-p {
+.project p {
   font-size: 16px;
 
   padding-left: 15px;
 }
+
+.skillclass p {
+  font-size: 25px;
+
+}
 .images {
   display: inline;
 }
-.divleft {
-  font-size: ;
+
+@media screen and (max-width: 540px	){
+   .skillclass p{
+    font-size: 20px;
+  }
 }
 </style>

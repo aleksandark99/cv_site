@@ -2,7 +2,7 @@
   <div id="home" class="section welcome style">
     <div id="welcome_text">
      
-      <h2>Hi, I am Aleksandar Kotur and this is my website, I am a  software developer student from Serbia and In 2018 i enrolled
+      <h2>Hi, I am Aleksandar Kotur and this is my website. I am a  software developer student from Serbia and in 2018 I enrolled
               The Faculty of Technical Sciences in Novi Sad, department of
               Software and information technology</h2>
 
@@ -48,5 +48,12 @@ h1 {
   image-rendering: optimizeSpeed;
   background-color: rgb(128, 128, 255)
 ;
+}
+
+
+@media screen and (max-width: 540px	){
+   h2{
+    font-size: 30px !important;
+  }
 }
 </style>

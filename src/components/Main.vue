@@ -1,6 +1,6 @@
 <template>
     <div class="main">
-        <Navbar msg="AK"/>
+        <Navbar/>
         <ScreenWelcome/>
         <About/>
         <Skills/>
@@ -38,6 +38,11 @@ export default {
     /* background: rgb(51, 153, 255); */
 
 }
+.main p:hover, h1:hover,h2:hover,h3:hover,h4:hover, a:hover {
+  color: yellow !important;
+}
+
+
 .section {
   height: 100vh;
 }
