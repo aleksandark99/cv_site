@@ -57,7 +57,7 @@
                 where users could search and buy tickets for projections. Java
                 servlets were used on backend where Apache Tomcat was
                 responsible for processing HTTP requests. I decided to focus
-                more on frontend where i used vue.js and bootstrap-vue. My goal
+                more on frontend where I used vue.js and bootstrap-vue. My goal
                 was to make a responsive app that looked nice and was usable and looked decent on
                 all devices. I really liked how it turned out and vue became my
                 preferred choice for frontend since then.
@@ -155,7 +155,7 @@
               </h4>
               <p>
                 I decided to make this website as alteranative to classic cv.
-                Instead of making it as a simple html/css page i decided to
+                Instead of making it as a simple html/css page I decided to
                 make it using vue with bootstrap and a little css because i find
                 it more efficeint and practical.
               </p>
