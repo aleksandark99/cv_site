@@ -5,7 +5,7 @@
         <b-col cols="12" lg="6">
           <div class="skillclass">
             <h3>Skills</h3>
-            <p>-English B2</p>
+            <p>-B2 First - Cambridge Assessment English (Score 179) </p>
             <p>-Java (Spring boot)</p>
             <p>-Sql</p>
 
