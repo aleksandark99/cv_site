@@ -51,7 +51,7 @@
 
             <p>
               I am always looking to improve my current skills, learn new ones
-              and that is a reason I am looking for internship. I think that
+              and that is a reason I am looking for <span style="text-decoration: line-through">internship </span>a job. I think that
               many things can be learnt on your own especially in this field,
               but I also think that by working with other people one can improve
               their skills much faster and bring them to another level.

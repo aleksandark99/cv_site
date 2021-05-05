@@ -8,12 +8,12 @@
             <p>-B2 First - Cambridge Assessment English (Score 179) </p>
             <p>-Java (Spring boot)</p>
             <p>-Sql</p>
-
-            <p>-JavaScript</p>
+            <p>-MongoDB</p>
+            <p>-Express.js</p>
             <p>-HTLM/CSS</p>
             <p>-Vue.js</p>
-            <p>-C#</p>
-            <p>-Android Studio</p>
+            <p>-Angular</p>
+            <p>-Scala(Play)</p>
           </div>
         </b-col>
         <b-col cols="12" lg="6">
@@ -161,6 +161,18 @@
               </p>
             </div>
           </div>
+        </b-col>
+      </b-row>
+      <b-row align-self="stretch" class="divleft">
+        <b-col cols="12" lg="12">
+          <h2>Quick May 2021 Update</h2>
+          <p>In the past few months I had an opportunity to work on few different projects. I experimented with both frontend and backend frameworks. On one of the projects I worked on this year I decided to try Angular and I really liked it and I will continue to work on mastering it. </p>
+          <p>Although I got a really good impression from Angular,a much bigger impact on me left 2 backend frameworks: Express.js and Play framework in combination with Scala</p>
+          <p>I will try to make this as short as possible. I was surprised how easy and fast it was to work with Express and MongoDB. Even configuring things that would take hours in other frameworks took only a few minutes in Express. That simplicity is reason i will try and do some upcoming projects with it. I mentioned MongoDB too. I used it on the same project as Express and I must admit that I liked it more than SQL databases and will also try to use in future projects.</p>
+          <p>But Play framework and Scala really changed the way i looked at programming. It was my first experience with functional programming and it helped me improve, but not only in the field of functional programming but as a programmer. It was all thanks to internship at NovaLite and wonderful people that work there.</p>
+
+          <h4>Plans for the future</h4>
+          <p>At the time of writing this I am 2 exams from graduating. It was a wonderful experience. I met many people full of knowledge and experience, I learnt a lot of things and  made a lot of friends. That being said I believe it is time for me to look for a job where I can grow even more and meet more amazing people. </p>
         </b-col>
       </b-row>
     </b-container>
